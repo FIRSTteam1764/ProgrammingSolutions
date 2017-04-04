@@ -1,0 +1,4 @@
+ERROR Unhandled exception: java.lang.NullPointerException at [edu.wpi.first.wpilibj.ADXRS450_Gyro.reset(ADXRS450_Gyro.java:132), org.usfirst.frc.team1764.robot.subsystems.Chassis.resetGyro(Chassis.java:117), org.usfirst.frc.team1764.robot.commands.ResetGyro.initialize(ResetGyro.java:18), edu.wpi.first.wpilibj.command.Command.run(Command.java:240), edu.wpi.first.wpilibj.command.CommandGroup._execute(CommandGroup.java:233), edu.wpi.first.wpilibj.command.Command.run(Command.java:242), edu.wpi.first.wpilibj.command.Scheduler.run(Scheduler.java:206), org.usfirst.frc.team1764.robot.Robot.autonomousPeriodic(Robot.java:127), edu.wpi.first.wpilibj.IterativeRobot.startCompetition(IterativeRobot.java:117), edu.wpi.first.wpilibj.RobotBase.main(RobotBase.java:247)] 
+WARNING: Robots don't quit!
+
+Solution: your Gyro has come loose or doesn't exist. 

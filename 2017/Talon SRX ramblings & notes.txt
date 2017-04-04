@@ -1,0 +1,5 @@
+* Talon srx's are no longer supported by wpilib (http://www.firstinspires.org/robotics/frc/blog/2017-control-system-update) and must have 3rd party extensions
+* These extensions where found at: http://www.ctr-electronics.com/talon-srx.html#product_tabs_technical_resources
+* API Reference can be found here: http://www.ctr-electronics.com/downloads/api/java/html/index.html
+
+Basically, the talo srx's can be PWM or CAN. 

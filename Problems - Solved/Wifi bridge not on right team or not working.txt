@@ -1,0 +1,9 @@
+Control panel -> Network and Internet -> Network And Sharing center -> Change adapter settings(left) -> Right click wifi -> Disable
+
+C:\Program Files (x86)\FRC Radio Configuration Utility
+(google the name if it isn't installed)
+Run through that. 
+
+Control panel -> Network and Internet -> Network And Sharing center -> Change adapter settings(left) -> Right click wifi -> Enable
+
+Power cycle the robot. Wait 5 minutes, keep checking internet for 1 minute and if it shows up you're good. If it doesn't, good luck.

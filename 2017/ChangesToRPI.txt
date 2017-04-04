@@ -1,0 +1,4 @@
+*Tmux installed. Use tmux attach-session -t 0 on login
+*SystemD script at /etc/systemd/system/cameraTracking.service that starts the cameratracking autostart in ~
+  *Only 'fork_camtrack.sh' is currently being ran, however, don't delete any of the other shell scripts
+  *Stopping the camera tracking involves using 'killall cam'. Don't name anything else cam unless you want it killed. A better solution is welcomed. 

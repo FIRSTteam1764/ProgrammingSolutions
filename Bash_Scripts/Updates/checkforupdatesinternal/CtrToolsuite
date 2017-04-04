@@ -1,0 +1,13 @@
+#!/bin/bash
+#This is primarily for the Talon SRX's, but it is the general toolsuite for CTR stuff
+site1="$(curl -s -S http://www.ctr-electronics.com/hro.html | grep CTRE\ Toolsuite\ Installer)"
+site="$(echo -e \"${site1}\n\")"
+oldsite="n/a"
+oldsite="$(cat data/ctrSite)"
+echo ${site} | cat > data/ctrSite
+
+if [ "${site}" != "${oldsite}" ]; then
+	echo "Talon SRX/General CTR drivers are out of date! Update at http://www.ctr-electronics.com/hro.html"
+else
+	echo "Talon SRX drivers up to date"
+fi

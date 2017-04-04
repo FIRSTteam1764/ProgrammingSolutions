@@ -1,0 +1,8 @@
+To open ssh, hit Windows, search 'bash', then click 'Git Bash'. In this new command prompt, type 'ssh pi@(pi's IP address)'. Wait 1-2 minutes
+and then type in 'raspberry' for the password. You can find the IP address for 2017 in the folder 2017.
+
+To use scp, open up Git Bash as before. 
+
+To copy from this computer to the raspberry pi, run 'scp (file location on this computer) pi@(pi's IP address):/(full file location on RPI)'.
+
+To copy from the raspberry pi, run run 'scp pi@(pi's IP address):/(full file location on RPI) (file location on this computer)'.

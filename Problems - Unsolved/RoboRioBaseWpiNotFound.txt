@@ -1,0 +1,10 @@
+ at edu.wpi.first.wpilibj.RobotBase.main(RobotBase.java:218): ERROR Unhandled exception instantiating robot org.usfirst.frc.team1764.robot.Robot java.lang.ExceptionInInitializerError at [java.lang.Class.forName0(Native Method), java.lang.Class.forName(Class.java:259), edu.wpi.first.wpilibj.RobotBase.main(RobotBase.java:216)] 
+ WARNING: Robots don't quit! 
+ ERROR: Could not instantiate robot org.usfirst.frc.team1764.robot.Robot! 
+ ➔ Launching «'/usr/local/frc/JRE/bin/java' '-Djava.library.path=/usr/local/frc/lib/' '-jar' '/home/lvuser/FRCUserProgram.jar'» 
+ERROR  1  ERROR Unhandled exception instantiating robot org.usfirst.frc.team1764.robot.Robot java.lang.ExceptionInInitializerError at [java.lang.Class.forName0(Native Method), java.lang.Class.forName(Class.java:259), edu.wpi.first.wpilibj.RobotBase.main(RobotBase.java:216)]  edu.wpi.first.wpilibj.RobotBase.main(RobotBase.java:218) 
+ Error at edu.wpi.first.wpilibj.RobotBase.main(RobotBase.java:218): ERROR Unhandled exception instantiating robot org.usfirst.frc.team1764.robot.Robot java.lang.ExceptionInInitializerError at [java.lang.Class.forName0(Native Method), java.lang.Class.forName(Class.java:259), edu.wpi.first.wpilibj.RobotBase.main(RobotBase.java:216)] 
+ WARNING: Robots don't quit! 
+ ERROR: Could not instantiate robot org.usfirst.frc.team1764.robot.Robot! 
+ ➔ Launching «'/usr/local/frc/JRE/bin/java' '-Djava.library.path=/usr/local/frc/lib/' '-jar' '/home/lvuser/FRCUserProgram.jar'» 
+ERROR  1  ERROR Unhandled exception instantiating robot org.usfirst.frc.team1764.robot.Robot java.lang.ExceptionInInitializerError at [java.lang.Class.forName0(Native Method), java.lang.Class.forName(Class.java:259), edu.wpi.first.wpilibj.RobotBase.main(R

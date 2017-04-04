@@ -1,0 +1,63 @@
+Buildfile: C:\dev\Java\Nautilus\build.xml
+Trying to override old definition of task classloader
+clean:
+   [delete] Deleting directory C:\dev\Java\Nautilus\build
+   [delete] Deleting directory C:\dev\Java\Nautilus\dist
+compile:
+    [mkdir] Created dir: C:\dev\Java\Nautilus\build
+     [echo] [athena-compile] Compiling src with classpath=C:\Users\FRC1764\wpilib\user\java\lib\CTRLib.jar;C:\Users\FRC1764\wpilib\user\java\lib\navx_frc.jar;C:\Users\FRC1764\wpilib\java\current\lib\WPILib.jar;C:\Users\FRC1764\wpilib\java\current\lib\NetworkTables.jar;C:\Users\FRC1764\wpilib\java\current\lib\opencv.jar;C:\Users\FRC1764\wpilib\java\current\lib\cscore.jar to build
+    [javac] Compiling 5 source files to C:\dev\Java\Nautilus\build
+jar:
+     [echo] [athena-jar] Making jar dist/FRCUserProgram.jar.
+    [mkdir] Created dir: C:\dev\Java\Nautilus\dist
+    [mkdir] Created dir: C:\dev\Java\Nautilus\build\jars
+     [echo] [athena-jar] Copying jars to build/jars.
+     [copy] Copying 6 files to C:\dev\Java\Nautilus\build\jars
+      [jar] Building jar: C:\dev\Java\Nautilus\dist\FRCUserProgram.jar
+get-target-ip:
+     [echo] Finding roboRIO, please ignore any [hostinfo] error messages
+     [echo] Trying DNS: roboRIO-1763-FRC.lan
+     [echo] Trying USB: 172.22.11.2
+     [echo] Trying mDNS: roboRIO-1763-FRC.local
+     [echo] Trying Static Ethernet: 10.17.63.2
+ [hostinfo] Error retrieving remote host information for host:roboRIO-1763-FRC.lan.
+     [echo] Resolved mDNS to 10.17.63.95
+     [echo] roboRIO found at 10.17.63.95
+dependencies:
+     [echo] roboRIO image version validated
+     [echo] Checking for JRE. If this fails install the JRE using these instructions: https://wpilib.screenstepslive.com/s/4485/m/13503/l/288822-installing-java-8-on-the-roborio-using-the-frc-roborio-java-installer-java-only
+  [sshexec] Connecting to 10.17.63.95:22
+  [sshexec] cmd : test -d /usr/local/frc/JRE
+deploy:
+      [scp] Connecting to 10.17.63.95:22
+      [scp] Receiving file: /usr/local/frc/lib/WPI_Native_Libraries.properties
+      [scp] Receiving: WPI_Native_Libraries.properties : 2636
+      [scp] File transfer time: 0.0 Average Rate: 8 B/s
+      [scp] done
+   [delete] Deleting: C:\Users\FRC1764\wpilib\user\java\lib\User_Libraries.properties
+      [scp] Connecting to 10.17.63.95:22
+      [scp] Receiving file: /usr/local/frc/lib/User_Libraries.properties
+      [scp] Receiving: User_Libraries.properties : 130
+      [scp] File transfer time: 0.0 Average Rate: 8 B/s
+      [scp] done
+     [echo] [athena-deploy] Copying code over.
+      [scp] Connecting to 10.17.63.95:22
+      [scp] done.
+  [sshexec] Connecting to 10.17.63.95:22
+  [sshexec] cmd : ldconfig
+  [sshexec] Connecting to 10.17.63.95:22
+  [sshexec] cmd : killall -q netconsole-host || :
+      [scp] Connecting to 10.17.63.95:22
+      [scp] Receiving file: /usr/local/frc/bin/netconsole-host.properties
+      [scp] Receiving: netconsole-host.properties : 130
+      [scp] File transfer time: 0.0 Average Rate: 8 B/s
+      [scp] done
+      [scp] Connecting to 10.17.63.95:22
+      [scp] done.
+     [echo] [athena-deploy] Starting program.
+  [sshexec] Connecting to 10.17.63.95:22
+  [sshexec] cmd : . /etc/profile.d/natinst-path.sh; /usr/local/frc/bin/frcKillRobot.sh -t -r;
+  [sshexec] Connecting to 10.17.63.95:22
+  [sshexec] cmd : sync
+BUILD SUCCESSFUL
+Total time: 27 seconds

@@ -1,0 +1,8 @@
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\project\roboRIO Tool
+Run through that. Install labview if that file doesn't exist
+
+
+Then, follow this guide FULLY: http://wpilib.screenstepslive.com/s/4485/m/13503/l/599747-installing-java-8-on-the-roborio-using-the-frc-roborio-java-installer-java-only
+
+This will install java. The software is INCREDABLY jenky so don't make any mistaeks.
+

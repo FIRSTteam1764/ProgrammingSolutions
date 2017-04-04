@@ -1,0 +1,1 @@
+Go into eclipse help, select your eclipse version and search WPI lib
